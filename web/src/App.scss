@@ -1,0 +1,143 @@
+.App{
+  width: 100%;
+  height: 100vh;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid gold;
+  box-shadow: 0 0px 15px gold; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10%;
+  .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logoMit{
+      width: 40px;
+      height: 40px;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+  }
+  .logo{
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  .links{
+    color: gold
+  }
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+section{
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  object-fit: cover;
+  .swiper{
+    width: 100%;
+    height: 100%;
+    .swiperSlide{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .container{
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0 5%;
+    @media screen and (max-width: 599px) {
+      height: 80%;
+    }
+    @media screen and (min-width: 600px) {
+      height: 60%;
+    }
+    .image{
+      border-radius: 20px;
+      position: absolute;
+      @media screen and (max-width: 599px) {
+        width: 50%;
+        height: 50%;
+        margin-top: -65%;
+        margin-right: auto;
+      }
+      @media screen and (min-width: 600px) {
+          width: 30%;
+          height: 80%;
+          margin-top: 270px;
+          margin-left: -50%;
+      }
+      img{
+        background-position: center;
+        border-radius: 15px;
+        object-fit: cover;
+        width: 100%;
+        height: 50%;
+      }
+    }
+    .info{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      @media screen and (max-width: 599px) {
+        gap: 10px;
+        margin: auto;
+        margin-top: 55%;
+      }
+      @media screen and (min-width: 600px) {
+        gap: 20px;
+        width: 100%;
+        margin-left: 30%;
+      }
+      h1{
+        font-size: 2rem;
+      }
+      p{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+        font-size: 1rem;
+      }
+      button{
+        margin: auto;
+        width: 50%;
+        padding: 10px 10%;
+        white-space: nowrap;
+        color: white;
+        font-size: 1rem;
+        background-image: linear-gradient(90deg, gold , gold 100%);
+        transition:background-color 0.7s ease 0s;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+      .containerPagination{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        .swiper-pagination-bullet{
+          background-color: gold;
+        }
+      }
+    }
+  }
+}
