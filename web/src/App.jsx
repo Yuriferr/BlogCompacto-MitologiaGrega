@@ -21,7 +21,7 @@ import Afrodite from "./assets/afrodite.png";
 import Hermes from "./assets/hermes.png";
 import Dionisio from "./assets/dionisio.png";
 
-import Logo from "./assets/logoSemFundo.png";
+import Logo from "./assets/LogoSemFundo.png";
 import LogoMitologia from "./assets/logoMitologia.png";
 
 import Background from "./assets/background.png";
