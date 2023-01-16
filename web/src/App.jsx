@@ -37,22 +37,22 @@ function App() {
   const deuses = [
     {
       name: "Zeus",
-      info: "Nascido na ilha de Creta e criado na caverna no monte Ida, Zeus é filho mais novo de Cronos e Reia. Ele teve cinco irmãos: Héstia, Hades, Hera, Poseidon e Deméter. Além disso, teve diversas esposas e filhos, sendo sua união mais conhecida com Hera, sua irmã.",
+      info: "Nascido na ilha de Creta e criado na caverna no monte Ida, Zeus é filho mais novo de Cronos e Reia. Ele teve cinco irmãos: Héstia, Hades, Hera, Poseidon e Deméter.",
       img: Zeus,
     },
     {
       name: "Hera",
-      info: "Filha de Cronos e Reia, Hera é a irmã e esposa de Zeus. Considerada a rainha dos deuses, era também cultuada como deusa da maternidade, do casamento e das mulheres.Com um temperamento difícil, Hera era muito fiel e não teve casos extraconjugais, como seu marido, Zeus.",
+      info: "Filha de Cronos e Reia, Hera é a irmã e esposa de Zeus. Considerada a rainha dos deuses, era também cultuada como deusa da maternidade, do casamento e das mulheres.",
       img: Hera,
     },
     {
       name: "Poseidon",
-      info: "Filho de Cronos e Reia, Poseidon é o deus dos mares, das tempestades e dos terremotos. Isso porque tem como característica um comportamento violento e instável. Como é o deus dos mares, em algumas versões ele habita as profundezas do oceano.",
+      info: "Filho de Cronos e Reia, Poseidon é o deus dos mares, das tempestades e dos terremotos. Isso porque tem como característica um comportamento violento e instável.",
       img: Poseidon,
     },
     {
       name: "Atena",
-      info: 'Filha de Zeus e Métis, Atena, também chamada de "Palas Atena", é a deusa da sabedoria e das artes. Em algumas versões, ela nasceu da cabeça de Zeus e por isso, era muito inteligente. Protetora das cidades, Atena era uma guerreira que já nasceu armada com um escudo e um capacete.',
+      info: 'Filha de Zeus e Métis, Atena, também chamada de "Palas Atena", é a deusa da sabedoria e das artes. Em algumas versões, ela nasceu da cabeça de Zeus e por isso, era muito inteligente.',
       img: Atena,
     },
     {
