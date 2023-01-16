@@ -57,7 +57,7 @@ function App() {
     },
     {
       name: "Ares",
-      info: "Filho de Zeus e Hera, Ares era o deus da guerra e meio-irmão de Atena. Possuía um temperamento muito selvagem, típico de sua figura belicosa. Teve um relacionamento com Afrodite que era esposa de Hefesto e por isso, foi banido do Monte Olimpo durante um tempo",
+      info: "Filho de Zeus e Hera, Ares era o deus da guerra e meio-irmão de Atena. Possuía um temperamento muito selvagem, típico de sua figura belicosa.",
       img: Ares,
     },
     {
@@ -67,12 +67,12 @@ function App() {
     },
     {
       name: "Apolo",
-      info: "Irmão gêmeo de Ártemis, Apolo é filho de Zeus e de Leto. Nascido na ilha de Delos, ele é Deus do sol, das artes, da profecia, da ordem e da justiça, sendo um dos deuses mais cultuados do Olimpo.",
+      info: "Irmão gêmeo de Ártemis, Apolo é filho de Zeus e de Leto. Nascido na ilha de Delos, ele é Deus do sol, das artes, da profecia, da ordem e da justiça.",
       img: Apolo,
     },
     {
       name: "Ártemis",
-      info: "Filha de Zeus e Leto, Ártemis era irmã gêmeo de Apolo. Deusa da caça, dos animais, da vida selvagem, da virgindade e da Lua, ela possuía um temperamento vingativo, mas, por outro lado, era protetora e amorosa.",
+      info: "Filha de Zeus e Leto, Ártemis era irmã gêmeo de Apolo. Deusa da caça, dos animais, da vida selvagem, da virgindade e da Lua.",
       img: Artemis,
     },
     {
@@ -87,12 +87,12 @@ function App() {
     },
     {
       name: "Hermes",
-      info: "Mensageiro dos deuses, Hermes era filho de Zeus e da ninfa Maia. Seu nome está associado a diversos atributos como o comércio, a riqueza, a sorte, a magia, as viagens, as estradas e os ladrões.",
+      info: "Mensageiro dos deuses, Hermes era filho de Zeus e da ninfa Maia. Seu nome está associado a diversos atributos como o comércio, a riqueza, as viagens, os ladrões, etc.",
       img: Hermes,
     },
     {
       name: "Dionísio",
-      info: "Também chamado de Dioniso, esse era o deus do vinho e das festas. Filho de Zeus e Sêmele, sua mãe sofreu uma armadilha de Hera e nesse episódio, ela acabou morrendo e seu corpo foi desfeito em diversos pedaços.",
+      info: "Também chamado de Dioniso, esse era o deus do vinho e das festas. Filho de Zeus e Sêmele, sua mãe sofreu uma armadilha de Hera, ela acabou morrendo e seu corpo foi desfeito.",
       img: Dionisio,
     },
   ];
